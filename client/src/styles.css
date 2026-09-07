@@ -103,6 +103,23 @@ body {
   display: block;
 }
 
+.wz-nav-home-btn {
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255,255,255,0.6);
+  background: transparent;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.wz-nav-home-btn:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: #fff;
+}
+
 
 /* ==========================================================================
    STEP 2 â€” IMPORTANT INSTRUCTIONS PAGE

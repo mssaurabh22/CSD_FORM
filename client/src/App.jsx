@@ -781,6 +781,19 @@ export default function App() {
             className="wz-nav-logo-img"
           />
         </div>
+        {wizardStep !== 2 && (
+          <button
+            type="button"
+            className="wz-nav-home-btn"
+            onClick={() => {
+              if (confirm("Return to the home page? This will clear your current progress and start a new application.")) {
+                resetForm();
+              }
+            }}
+          >
+            🏠 Home
+          </button>
+        )}
       </nav>
 
       {/* =====================================================================
