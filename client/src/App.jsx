@@ -1254,6 +1254,18 @@ export default function App() {
                     >
                       🖨️ Print / Save PDF
                     </button>
+                    <button
+                      id="final-home-btn"
+                      className="wz-btn-secondary"
+                      type="button"
+                      onClick={() => {
+                        if (confirm("Return to the home page? This will clear your current progress and start a new application.")) {
+                          resetForm();
+                        }
+                      }}
+                    >
+                      🏠 Home
+                    </button>
                   </div>
                 </div>
               </div>
