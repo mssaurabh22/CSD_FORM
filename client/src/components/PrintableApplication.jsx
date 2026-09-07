@@ -392,7 +392,7 @@ export default function PrintableApplication({ form, selectedFormType }) {
 
         {/* Page 1 Footer */}
         <div className="pr-page-footer">
-          <div>Canteen Smart Card Portal &bull; Official Tabular Application Record</div>
+          <div>Canteen Smart Card Form Filling Portal</div>
           <div>Page 1 of 2</div>
         </div>
       </div>
@@ -609,7 +609,7 @@ export default function PrintableApplication({ form, selectedFormType }) {
 
         {/* Page 2 Footer */}
         <div className="pr-page-footer">
-          <div>Canteen Smart Card Portal &bull; Official Tabular Application Record</div>
+          <div>Canteen Smart Card Form Filling Portal</div>
           <div>Page 2 of 2 (End of Official Application Record)</div>
         </div>
       </div>
