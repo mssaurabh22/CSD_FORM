@@ -1136,7 +1136,8 @@ body {
   border-left: 5px solid var(--wz-blue);
   border-radius: 6px;
   padding: 12px 18px;
-  margin-bottom: 16px;
+  max-width: 880px;
+  margin: 0 auto 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
