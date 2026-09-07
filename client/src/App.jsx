@@ -1044,9 +1044,6 @@ export default function App() {
                     <div className="wz-card-topbar-sub">Step 1 of {activeSteps.length} — Select official category &amp; security check</div>
                   </div>
                   <div className="wz-draft-actions">
-                    <button className="wz-btn-draft" type="button" onClick={() => saveWizardToLocalStorage({ notify: true })}>
-                      Save Draft
-                    </button>
                     <button
                       className="wz-btn-draft"
                       type="button"
