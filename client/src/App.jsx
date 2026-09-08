@@ -1430,19 +1430,6 @@ export default function App() {
                     <div className="wz-card-topbar-title">Verification &amp; Form Selection</div>
                     <div className="wz-card-topbar-sub">Step 1 of {activeSteps.length} — Select official category &amp; security check</div>
                   </div>
-                  <div className="wz-draft-actions">
-                    <button
-                      className="wz-btn-draft"
-                      type="button"
-                      onClick={() => {
-                        if (confirm("Clear local draft and reset form?")) {
-                          resetForm();
-                        }
-                      }}
-                    >
-                      New Form
-                    </button>
-                  </div>
                 </div>
 
                 <div className="wz-card-body">
